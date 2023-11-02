@@ -1,0 +1,17 @@
+.component {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.object {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-div {
+    position: absolute;
+    width: 99vw;
+    height: 100vh;
+}

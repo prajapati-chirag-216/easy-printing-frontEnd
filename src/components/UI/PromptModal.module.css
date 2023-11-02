@@ -1,0 +1,54 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.671);
+}
+
+.modal {
+    position: fixed;
+    top: 30vh;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.header {
+    background: #2e689b;
+    padding: 0.7rem;
+    border-bottom: 0.3rem solid rgb(2, 2, 84);
+    display: flex;
+}
+
+.header .icon {
+    align-items: flex-end;
+    font-size: 1.3rem;
+    align-self: center;
+    color: white;
+}
+
+.header .icon:hover {
+    cursor: pointer;
+}
+
+.header h2 {
+    margin: 0;
+    color: white;
+    flex-grow: 1;
+}
+
+.content {
+    padding-left: 1rem;
+    font-size: large;
+}
+
+@media (min-width: 768px) {
+    .modal {
+        left: calc(54% - 20rem);
+        width: 35rem;
+    }
+}

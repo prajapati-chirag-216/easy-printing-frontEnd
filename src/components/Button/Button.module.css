@@ -1,0 +1,35 @@
+.button {
+  font: inherit;
+  border: 1px solid #2e689b;
+  background: #2e689b;
+  color: white;
+  padding: 0.7rem 3.2rem;
+  cursor: pointer;
+  font-size: 1.15rem;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(138, 138, 138, 0.804);
+  transition: all 0.2s;
+}
+
+.button:hover,
+.button:active {
+  background: #264f72;
+  border-color: #264f72;
+  box-shadow: 0 3px 10px rgba(129, 129, 129, 0.74);
+}
+
+.button:focus {
+  outline: none;
+}
+
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+  box-shadow: none;
+}

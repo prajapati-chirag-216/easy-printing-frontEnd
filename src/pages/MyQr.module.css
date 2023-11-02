@@ -1,0 +1,10 @@
+.component {
+    margin: 0 auto;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.object {
+    width: 100vw;
+    height: 100vh;
+}

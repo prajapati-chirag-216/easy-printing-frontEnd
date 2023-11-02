@@ -1,0 +1,67 @@
+.tile {
+    margin: 1rem 0;
+    width: 90%;
+    height: 10vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: #c2e7f0;
+}
+
+.tile figure {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+}
+
+.tile blockquote {
+    margin: 0;
+    padding-top: 0.3rem;
+    text-align: left;
+    font-size: 1rem;
+    color: #566d6d;
+}
+
+.tile figcaption {
+    font-size: 1.5rem;
+    color: #212929;
+}
+
+.action-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.trash {
+    display: none;
+    align-self: flex-end;
+    font-size: large;
+    padding-bottom: 0.5rem;
+}
+
+.tile:hover .trash {
+    display: block;
+    color: rgb(68, 131, 148);
+}
+
+.tile:hover .trash:hover {
+    cursor: pointer;
+    color: rgb(10, 41, 49);
+}
+
+.btn {
+    text-decoration: none;
+    background-color: rgba(5, 73, 115, 0.852);
+    color: white;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(2, 67, 108);
+}

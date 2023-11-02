@@ -1,0 +1,48 @@
+.main {
+    margin: 4rem auto;
+    width: 90%;
+    max-width: 45rem;
+}
+
+.content-div {
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.container .img-div {
+    width: 50%;
+}
+
+.container .form-div {
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        margin: 0 auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .container .img-div {
+        width: 100%;
+    }
+
+    .container .form-div {
+        width: 100%;
+    }
+}

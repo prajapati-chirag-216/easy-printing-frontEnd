@@ -1,0 +1,143 @@
+.container {
+    margin: 5rem auto;
+    max-width: 60vw;
+    border-radius: 10px;
+    background-color: #dff0ffd8;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.admin_info-div {
+    border-radius: 10px 0 0 10px;
+    background-color: rgba(192, 210, 230, 0.847);
+    flex: 1;
+}
+
+.admin_status-div {
+    flex: 2;
+}
+
+.admin_photo-div {
+    width: 65%;
+    height: 45%;
+    margin: 0rem auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    user-select: none;
+    display: flex;
+}
+
+.admin_photo {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+.options {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    padding-right: 3rem;
+}
+
+.options input {
+    display: none;
+}
+
+.fa-edit {
+    color: rgba(95, 95, 95, 0.886);
+    font-size: 1.5rem;
+    filter: drop-shadow(1px 1px 4px rgba(63, 63, 63, 0.397));
+}
+
+.fa-edit:hover {
+    color: rgba(72, 72, 72, 0.886);
+    transform: scale(1.1);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.caption-div {
+    width: 70%;
+    margin: 3rem auto;
+    font-size: 1.3rem;
+    color: rgba(72, 72, 72, 0.886);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fa-glob {
+    font-size: large;
+    margin-right: 0.5rem;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.status-div {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.user_status-div {
+    color: rgb(129, 144, 158);
+    text-align: center;
+    padding: 1rem;
+    user-select: none;
+}
+
+.files_status-div {
+    color: rgb(129, 144, 158);
+    text-align: center;
+    padding: 1rem;
+    user-select: none;
+}
+
+.count {
+    font-size: 10rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(175, 196, 215);
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.377);
+    user-select: none;
+
+}
+
+.status_info-div {
+    height: 30%;
+    text-align: center;
+    color: rgb(129, 144, 158);
+    font-size: larger;
+    user-select: none;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 5rem auto;
+        max-width: 85vw;
+        border-radius: 10px;
+        background-color: #dff0ffd8;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+    }
+
+    .admin_photo-div {
+        width: 65%;
+        height: 35%;
+        margin: 0rem auto;
+        border-radius: 50%;
+        background-color: aquamarine;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .count {
+        font-size: 8rem;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(175, 196, 215);
+        text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.377);
+    }
+}

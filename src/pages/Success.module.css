@@ -1,0 +1,41 @@
+.success {
+    background-color: rgba(26, 196, 151, 0.388);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    max-width: 60vw;
+    max-height: 20vh;
+    margin: 1rem 0;
+}
+
+.header {
+    font-family: Merriweather, serif;
+    letter-spacing: 0;
+    color: #3c3c3c;
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.link {
+    font: inherit;
+    color: rgb(29, 4, 105);
+}
+
+.centered {
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.span {
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #3c3c3c;
+    opacity: 1;
+    margin-top: 1rem;
+}
+
+.line {
+    margin: 1rem 0;
+    width: 5rem;
+}

@@ -1,0 +1,51 @@
+.map-container {
+    position: absolute;
+    width: 100vw;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.map-bar {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 30rem;
+    user-select: none;
+    display: flex;
+}
+
+.distance-inp {
+    background-color: white;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+}
+
+::placeholder {
+    color: rgb(110, 110, 110);
+}
+
+.distance-inp:focus {
+    outline: none;
+}
+
+.search {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+    color: rgb(110, 110, 110);
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.search:hover {
+    color: rgb(64, 64, 64);
+}

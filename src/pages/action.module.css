@@ -1,0 +1,32 @@
+.action {
+    width: 90%;
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.actions {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(41, 7, 145);
+}
+
+.info {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.actions p {
+    font-size: 1.2rem;
+}
+
+.fa-globe {
+    font-size: 1rem;
+    cursor: pointer;
+}
